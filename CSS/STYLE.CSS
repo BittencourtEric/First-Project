@@ -125,8 +125,13 @@ span {
     border: 2px solid transparent;
     width: 100px;
     height: 40px;
+    cursor: pointer;
 }
 
+.button:hover {
+    transition: 0.2s;
+    background-color: red;
+}
 
 .form-body {
     border-radius: 10px;
